@@ -1,0 +1,118 @@
+{
+  "name": "晶彩看点定时任务订阅",
+  "desc": "无",
+  "date": "2021-08-05 20:32:08",
+  "author": "https://t.me/ShaolinTemple1",
+  "resource": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_cron.json",
+  "list": [
+    {
+      "name": "晶彩签到",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_qd.js"
+      }
+    },
+    {
+      "name": "晶彩文章",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_wz.js"
+      }
+    },
+    {
+     "name": "晶彩看看赚",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_kkz.js"
+      }
+    },
+    {
+      "name": "晶彩火爆转发",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_share.js"
+      }
+    },
+    {
+      "name": "晶彩福利视频",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_Adv_video.js"
+      }
+    },
+    {
+      "name": "晶彩每日任务宝箱领取",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_box.js"
+      }
+    },
+    {
+      "name": "晶彩好友签到红包",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_friendSign.js"
+      }
+    },
+    {
+      "name": "晶彩看点5分钟60分钟任务领取",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/Jc_5_60.js"
+      }
+    },	
+    {
+      "name": "晶彩抽奖",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_Rotary.js"
+      }
+    },
+    {
+      "name": "晶彩提现",
+      "type": "cron",
+      "time": "34 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_withdraw.js"
+      }
+    },
+    {
+      "name": "晶彩每日收益统计",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/moneyfly1/zqkd/main/jckd/jc_today_score.js"
+      }
+    }
+  ]
+}

@@ -12,7 +12,7 @@ appstore 搜索九章头条
 
 圈x  其他自己编写
 [rewrite_local]
-https://api.st615.com/v1/user/info? url script-request-header https://raw.githubusercontent.com/xl2101200/-/main/jztt.js
+https://api.st615.com/v1/user/info? url script-request-header https://raw.githubusercontent.com/moneyfly1/zqkd/main/jztt.js
 
 [mitm]
 api.st615.com
